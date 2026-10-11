@@ -160,3 +160,7 @@ rule Malware_DefenseEvasion_MpSigStub_Masquerade {
             $hex_anti_debug
         )
 }
+```
+
+### Note!!!
+* This repository and the contained technical write-up are strictly created for educational, academic, and cybersecurity research purposes. The reverse engineering analysis was conducted in an isolated laboratory environment to understand threat behavior and develop detection mechanisms (YARA). No malicious binaries are hosted in this repository.
