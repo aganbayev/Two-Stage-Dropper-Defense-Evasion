@@ -9,7 +9,6 @@
 * **SHA-256:** `c3e6c682ffc9521efeac722d77abbfb886d36d964ea83e8ee0ad10b51172c0a`
 * **File Size:** 625.49 KB (640,504 bytes)
 * **Compiler / Toolchain:** Microsoft Visual C/C++ (19.28.30095) [LTCG/C++] / Visual Studio 2019
-* **Archive Password:** `infected`
 
 ## Executive Summary
 This report provides a detailed technical reverse engineering analysis of a two-stage Windows x64 malware campaign. The initial binary acts as a custom dropper/extractor that extracts an embedded cabinet payload (CAB) into the `%TEMP%` directory and executes a second-stage executable (`MpSigStub.exe`).
